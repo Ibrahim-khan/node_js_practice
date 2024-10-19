@@ -1,12 +1,5 @@
-/*
-setTimeout(() => {
-    console.log("hello world")
-}, 2000)
-*/
-
-const people = require ('./people');
-console.log(people);
-people.test();
-
+var a = 5;
+a = 6;
+console.log(s)
 
     
