@@ -1,5 +1,5 @@
-var a = 5;
-a = 6;
-console.log(s)
+const people = require('./test/people');
 
-    
+console.log(people.people);
+console.log(people.a);
+people.test();
