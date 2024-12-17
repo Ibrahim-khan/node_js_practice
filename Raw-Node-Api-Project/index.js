@@ -21,7 +21,8 @@ app.config = {
 app.createServer = () => {
     const server = http.createServer(app.handleReqRes);
     server.listen(app.config.port, () => {
-        console.log(`listening to port ${app.config.port}`);
+        console.log(`server is running at http:///localhost${process.env.NODE_ENV}`);
+        console.log(`listening to port ${app.config.port}`)
     });
 }
 
